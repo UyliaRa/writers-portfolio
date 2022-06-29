@@ -1,1 +1,64 @@
+/*font-family: "Josefin Sans", sans-serif;
+font-family: "Roboto Slab", serif;*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.hero p {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  color: #b2b8a3;
+}
+
+.hero {
+  text-align: center;
+  background-color: #deedf0;
+}
+
+.main-photo {
+  margin: 20px;
+  max-width: 300px;
+  border-radius: 180px;
+  border: solid 3px #fdef96;
+}
+
+@media (max-width: 576px) {
+  .hero {
+    text-align: center;
+    width: 100%;
+    background-color: #deedf0;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    color: #b2b8a3;
+  }
+
+  .hero h3 {
+    font-size: 18px;
+  }
+
+  .main-photo {
+    margin-bottom: 0px;
+    max-width: 300px;
+    border-radius: 180px;
+    border: solid 3px #fdef96;
+  }
+}
