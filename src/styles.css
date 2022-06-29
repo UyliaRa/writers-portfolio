@@ -21,7 +21,7 @@ p {
 
 .hero h1 {
   font-size: 50px;
-  color: #b2b8a3;
+  color: #665c84;
 }
 
 .hero {
@@ -31,7 +31,7 @@ p {
 
 .main-photo {
   margin: 20px;
-  max-width: 300px;
+  max-width: 260px;
   border-radius: 180px;
   border: solid 3px #fdef96;
 }
@@ -56,9 +56,39 @@ p {
   }
 
   .main-photo {
-    margin-bottom: 0px;
-    max-width: 300px;
+    margin: 0px;
+    max-width: 70%;
     border-radius: 180px;
-    border: solid 3px #fdef96;
+    border: solid 3px #fee28e;
   }
+}
+
+.writing-for-children h3 {
+  text-align: center;
+}
+
+.writing-for-children p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.colored-text {
+  color: #665c84;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.pen-img {
+  max-width: 100px;
+  margin: 0px auto;
+}
+
+.first-book {
+  background-color: #fee28e;
+}
+
+.first-book p {
+  font-size: 22px;
+  margin-left: 30px;
 }
