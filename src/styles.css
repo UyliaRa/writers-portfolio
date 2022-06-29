@@ -56,7 +56,7 @@ p {
 
   .hero h1 {
     font-size: 30px;
-    color: #b2b8a3;
+    color: #665c84;
   }
 
   .hero h3 {
@@ -71,9 +71,25 @@ p {
   }
 }
 
+.hello {
+  margin-top: 30px;
+}
+
 @media (max-width: 768px) {
   .contacts {
     text-align: center;
+  }
+}
+
+@media (max-width: 989px) {
+  .hello {
+    margin-top: 0px;
+  }
+  .iam {
+    margin-bottom: 50px;
+  }
+  footer {
+    margin-top: 40px;
   }
 }
 
