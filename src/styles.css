@@ -91,6 +91,10 @@ p {
   footer {
     margin-top: 40px;
   }
+  .small-about-img {
+    margin: 80px auto 10px auto;
+    border-radius: 100%;
+  }
 }
 
 .writing-for-children h3 {
@@ -145,4 +149,26 @@ a:hover {
 
 footer {
   background-color: #c6cfff;
+}
+
+.about-paragraph {
+  font-size: 20px;
+}
+
+.about-paragraph h1 {
+  color: #665c84;
+  text-align: center;
+}
+
+.btn {
+  background-color: white;
+  border: solid #665c84;
+  border-radius: 10px;
+  color: #665c84;
+}
+
+.btn:hover {
+  background-color: #665c84;
+  border: solid #665c84;
+  color: white;
 }
