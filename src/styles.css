@@ -37,9 +37,13 @@ p {
   background-color: #f3f8ff;
 }
 
+.hello {
+  margin-top: 30px;
+}
+
 .main-photo {
   margin: 20px;
-  max-width: 260px;
+  max-width: 300px;
   border-radius: 180px;
   border: solid 3px #fee28e;
 }
@@ -48,14 +52,14 @@ p {
   .hero {
     text-align: center;
     width: 100%;
-    background-color: #deedf0;
+    background-color: #f3f8ff;
   }
   .hero p {
     font-size: 20px;
   }
 
   .hero h1 {
-    font-size: 30px;
+    font-size: 26px;
     color: #665c84;
   }
 
@@ -69,10 +73,46 @@ p {
     border-radius: 180px;
     border: solid 3px #fee28e;
   }
+
+  .hello {
+    margin-top: 0px;
+  }
+  .iam {
+    margin-bottom: 50px;
+  }
 }
 
-.hello {
-  margin-top: 30px;
+@media (max-width: 440px) {
+  .hero {
+    text-align: center;
+    width: 100%;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+    color: #665c84;
+  }
+
+  .hero h3 {
+    font-size: 18px;
+  }
+
+  .main-photo {
+    margin: 0px;
+    max-width: 40%;
+    border-radius: 180px;
+    border: solid 3px #fee28e;
+  }
+
+  .hello {
+    margin-top: 0px;
+  }
+  .iam {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -82,12 +122,6 @@ p {
 }
 
 @media (max-width: 989px) {
-  .hello {
-    margin-top: 0px;
-  }
-  .iam {
-    margin-bottom: 50px;
-  }
   footer {
     margin-top: 40px;
   }
@@ -130,7 +164,7 @@ p {
 }
 
 .characters {
-  max-width: 400px;
+  max-width: 100%;
 }
 
 a {
