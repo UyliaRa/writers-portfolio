@@ -206,3 +206,35 @@ footer {
   border: solid #665c84;
   color: white;
 }
+
+.plans {
+  background-color: #fee28e;
+  margin-top: 50px;
+}
+
+.maintext-next {
+  font-size: 24px;
+  margin-top: 48px;
+}
+
+.header-next {
+  color: #665c84;
+  margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+  .maintext-next {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .header-next {
+    color: #665c84;
+    margin-top: 25px;
+    text-align: center;
+  }
+}
+
+.next-img {
+  max-height: 300px;
+  border-radius: 180px;
+}
