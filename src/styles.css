@@ -119,6 +119,9 @@ p {
   .contacts {
     text-align: center;
   }
+  .contact-me {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 989px) {
@@ -232,9 +235,16 @@ footer {
     margin-top: 25px;
     text-align: center;
   }
+
+  .plans-paragraph {
+    font-size: 16px;
+  }
 }
 
 .next-img {
   max-height: 300px;
   border-radius: 180px;
+}
+.plans-paragraph {
+  font-size: 20px;
 }
